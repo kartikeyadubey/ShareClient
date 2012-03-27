@@ -1,0 +1,15 @@
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\bin\Debug\ShareClient.exe
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\bin\Debug\ShareClient.pdb
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\bin\Debug\OpenNI.Net.dll
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\bin\Debug\XnVNITE.net.dll
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\MainWindow.baml
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\App.g.cs
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\ShareClient_MarkupCompile.cache
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\ShareClient.g.resources
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\ShareClient.Properties.Resources.resources
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\ShareClient.exe
+C:\Users\Kartikeya\Documents\Visual Studio 2010\Projects\ShareClient\ShareClient\obj\x86\Debug\ShareClient.pdb
