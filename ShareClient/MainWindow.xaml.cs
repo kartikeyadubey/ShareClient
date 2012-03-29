@@ -66,7 +66,7 @@ namespace ShareClient
 
             _clientThread = new BackgroundWorker();
             _clientThread.DoWork += new DoWorkEventHandler(clientThread_DoWork);
-            
+
             serverImage = new WriteableBitmap(TRANSMIT_WIDTH, TRANSMIT_HEIGHT, DPI_X, DPI_Y, PixelFormats.Bgra32, null);
             _sensor = new SensorData();
             _sensor.updated += new SensorData.UpdatedEventHandler(_sensor_updated);
@@ -88,7 +88,7 @@ namespace ShareClient
                 //in the image send a message to the client
                 //with the size of the bounding box and the image
                 //Send every sixth frame that we receive
-                if (backgroundSent && playerFound && imageSendCounter % 2 == 0)
+                if (backgroundSent && playerFound)
                 {
                     //Send the client a flag
                     ASCIIEncoding encoder = new ASCIIEncoding();
@@ -244,10 +244,10 @@ namespace ShareClient
             {
                 client = new TcpClient();
                 serverEndPoint = new IPEndPoint(IPAddress.Parse(ipAddress), portReceive);
-                
+
                 client.Connect(serverEndPoint);
                 clientStream = client.GetStream();
-                
+
                 clientStream.Write(buffer, 0, buffer.Length);
                 clientStream.Flush();
                 Console.WriteLine("Client said hello");
@@ -276,7 +276,7 @@ namespace ShareClient
                     if (!client.Connected)
                     {
                         client.Connect(serverEndPoint);
-                    }   
+                    }
                     clientStream.Flush();
                     //blocks until a server replies with a message
                     if (!backgroundReceived)
@@ -339,7 +339,7 @@ namespace ShareClient
                     playerImage = new byte[imgSize];
 
                     bytesRead = 0;
-                    while(bytesRead != imgSize)
+                    while (bytesRead != imgSize)
                     {
                         int tmpBytesRead = clientStream.Read(partialPlayerImage, 0, imgSize);
                         Buffer.BlockCopy(partialPlayerImage, 0, playerImage, bytesRead, tmpBytesRead);
@@ -399,7 +399,7 @@ namespace ShareClient
                     image1.Source = serverImage;
                     //imageDrawn = true;
                     serverImage.Unlock();
-                });    
+                });
             }
         }
 
